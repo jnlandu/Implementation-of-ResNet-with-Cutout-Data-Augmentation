@@ -1,0 +1,7 @@
+python>=3.8
+pyTorch
+torchvision
+numPy
+pandas
+matplotlib
+tqdm
