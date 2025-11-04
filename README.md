@@ -121,7 +121,7 @@ Before the introduction of ResNet architecture, traditional neural network archi
 
 ### Training and Testing Error Comparison
 
-<img width="755" alt="Screenshot 2024-06-19 at 22 17 02" src="https://github.com/Ignatiusboadi/Resnet_Imagenet_with_Cutout/assets/102676168/d188c74f-8ca2-4ff5-b202-249a6d7c50cd">
+<img width="758" height="252" alt="Image" src="https://github.com/user-attachments/assets/316f923b-ed2d-41c0-b453-af0a189d6928" />
 
 *Figure 1: Training and Testing Error Comparison Between 20-layer and 56-layer Models*
 
@@ -139,7 +139,7 @@ Data augmentation is one solution to avoid overfitting a training dataset of ima
 
 Cutout augmentation is a technique used in image data augmentation where random square patches of pixels are masked out during training. This method helps in regularizing deep learning models by preventing overfitting and encouraging the learning of more robust features. By obscuring different parts of the images in each training iteration, cutout augmentation diversifies the training dataset and improves the model's ability to generalize to unseen data. It is a cost-effective and straightforward approach to enhancing the performance and robustness of image classification models.
 
-<img width="277" alt="Screenshot 2024-06-19 at 22 41 52" src="https://github.com/Ignatiusboadi/Resnet_Imagenet_with_Cutout/assets/102676168/2b5a2b9d-6406-47fe-9a4c-74cde390e193">
+<img width="274" height="100" alt="Image" src="https://github.com/user-attachments/assets/133d0858-92b6-43c7-8468-2cbb9d4ac151" />
 
 *Figure 2: Example of Cutout data augmentation applied to training images*
 
@@ -231,18 +231,6 @@ Contributions are welcome! Please follow these steps:
 - Include unit tests for new features
 - Update documentation as needed
 
-## Citation
-
-If you use this code in your research, please cite:
-
-```bibtex
-@misc{resnet_cutout_2024,
-  title={ResNet ImageNet Implementation with Cutout Data Augmentation},
-  author={Your Name},
-  year={2024},
-  howpublished={\url{https://github.com/jnlandu/Implementation-of-ResNet-with-Cutout-Data-Augmentation}}
-}
-```
 
 ## References
 
